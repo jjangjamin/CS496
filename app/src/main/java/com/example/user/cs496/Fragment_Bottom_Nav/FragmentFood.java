@@ -7,4 +7,6 @@ import android.support.v4.app.Fragment;
  */
 
 public class FragmentFood extends Fragment {
+    public interface OnFragmentInteractionListener {
+    }
 }
