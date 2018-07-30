@@ -1,4 +1,4 @@
-package com.example.user.cs496;
+package com.example.user.cs496.Fragment;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -7,19 +7,20 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.user.cs496.R;
+
 
 /**
  * Created by ar-android on 15/10/2015.
  */
-public class FragmentSubmit extends Fragment {
-
-    public FragmentSubmit() {
+public class FragmentAnnouncement extends Fragment{
+    public FragmentAnnouncement() {
 
     }
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_submit, container, false);
+        return inflater.inflate(R.layout.fragment_announcement, container, false);
     }
 }

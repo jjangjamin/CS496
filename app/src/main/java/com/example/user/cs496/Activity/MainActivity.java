@@ -1,4 +1,4 @@
-package com.example.user.cs496;
+package com.example.user.cs496.Activity;
 
 import android.app.Fragment;
 import android.content.res.Configuration;
@@ -11,6 +11,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+
+import com.example.user.cs496.Fragment.FragmentAnnouncement;
+import com.example.user.cs496.Fragment.FragmentScrum;
+import com.example.user.cs496.Fragment.FragmentSubmit;
+import com.example.user.cs496.R;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {

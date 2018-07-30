@@ -1,13 +1,12 @@
-package com.example.user.cs496;
+package com.example.user.cs496.Activity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
-import android.view.animation.AlphaAnimation;
-import android.view.animation.Animation;
-import android.widget.TextView;
+
+import com.example.user.cs496.R;
 
 public class LoadingActivity extends AppCompatActivity {
     private static int SPLASH_TIME_OUT = 5000;
